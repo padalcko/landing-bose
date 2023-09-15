@@ -1,9 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
-}
-body {
     margin: 0;
 }
+
+:root {
+    --main-text-color: #292929;
+    --menu-bg-color: #E8EFF9;
+    font-family: 'Inter', sans-serif;
+}
+
+
 
 .header {
     height: 100vh;
@@ -22,17 +32,33 @@ body {
 }
 
 .menu {
-    width: 1260px;
-    height: 720px;
+    height: 100vh;
     padding: 64px 120px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: #E8EFF9;
+    background-color: var(--menu-bg-color);
 }
 
 .menu__top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.nav__link {
+    color: var(--main-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+
 
