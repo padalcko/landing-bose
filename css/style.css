@@ -18,7 +18,7 @@ html {
 .header {
     height: 100vh;
     padding: 64px 120px;
-    background-image: url(../img/header-bg.png);
+    background-image: url(img/header-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +219,7 @@ html {
 
 .footer {
     height: 460px;
-    background-image: url(../img/footer-bg.png);
+    background-image: url(img/footer-bg.png);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
