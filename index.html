@@ -4,46 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BOSE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body id="home">
     <header class="header">
       <div class="header__top">
         <img src="img/Logo.png" alt="main logo" />
-        <img src="img/icon/Icon-Burger-menu.png" alt="icon burger menu" />
+        <a href="#menu">
+          <img src="img/icon/Icon-Burger-menu.png" alt="icon burger menu" />
+        </a>
       </div>
       <div class="header__bottom">
         <img src="img/sound-waves.png" alt="sound-waves" />
-        <h1>
+        <h1 class="header__title">
           The world shades.
           <br />
           Your music shines.
         </h1>
       </div>
     </header>
-    <div class="menu">
+    <div class="menu" id="menu">
       <div class="menu__top">
         <img src="img/logo.png" alt="main logo" />
-        <img src="img/icon/Icon-Close.png" alt="icon close" />
+        <a href="#home">
+          <img src="img/icon/Icon-Close.png" alt="icon close" />
+        </a>
       </div>
-           <nav class="nav">
-            <a href="#home" class="nav__link">Home</a>
-            <a href="#Recommended" class="nav__link">Recommended</a>
-            <a href="#Categories" class="nav__link">Categories</a>
-            <a href="#How-to-buy" class="nav__link">How to buy</a>
-           </nav>
-    <main>
-      <section id="Recommended">
-        <h2>Recommended</h2>
+      <nav class="nav">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#Recommended" class="nav__link">Recommended</a>
+        <a href="#Categories" class="nav__link">Categories</a>
+        <a href="#How-to-buy" class="nav__link">How to buy</a>
+      </nav>
+    </div>
+    <main class="main">
+      <section id="recommended">
+        <h2 class="recommended__title">Recommended</h2>
+        <div class="recommented__products">
+          <article class="product">
+            <img
+              src="img/prod/Bose portable Smart speaker.png"
+              alt="portable Smart speaker"
+              class="product__photo"
+            />
+            <h3 class="product__title">Bose portable Smart speaker</h3>
+            <p class="product__category">Smart home</p>
+            <p class="product__price">$ 399.00</p>
+          </article>
+          <article class="product">
+            <img
+              src="img/prod/SoundLink Flex Bluetooth speaker.png"
+              alt="SoundLink Flex Bluetooth speaker"
+              class="product__photo"
+            />
+            <h3 class="product__title">SoundLink Flex Bluetooth speaker</h3>
+            <p class="product__category">Portable bluetooth</p>
+            <p class="product__price">$ 149.00</p>
+          </article>
+          <article class="product">
+            <img
+              src="img/prod/SoundLink Color Bluetooth speaker II.png"
+              alt="SoundLink Color Bluetooth speaker II"
+              class="product__photo"
+            />
+            <h3 class="product__title">SoundLink Color Bluetooth speaker II</h3>
+            <p class="product__category">Portable bluetooth</p>
+            <p class="product__price">$ 129.00</p>
+          </article>
+        </div>
       </section>
       <section id="Categories">
-        <h2>Browse Bose <br />products by category</h2>
+        <h2 class="categories__title">
+          Browse Bose <br />products by category
+        </h2>
       </section>
       <section id="How-to-buy">
-        <h2>
+        <h2 class="howtobuy__title">
           Why buy direct <br />
           from Bose
         </h2>
