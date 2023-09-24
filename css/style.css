@@ -223,7 +223,9 @@ html {
     position: sticky;
     bottom: 0;
     z-index: -1;
+    text-align: center;
 }
+
 
 @media (max-width: 1024px) {
 
@@ -288,6 +290,12 @@ html {
     .main {
         padding: 120px 20px;
     }
+    .recommended__title {
+        font-size: 32px;
+    }
+    .categories__title {
+        font-size: 32px;
+    }
     .photo-square {
         width: 48,5%;
         object-fit: cover;
@@ -298,5 +306,10 @@ html {
     }
     .how-to-buy {
         display: block;
+    }
+
+    .howtobuy__title {
+        font-size: 32px;
+        margin-bottom: 32px;
     }
 }
